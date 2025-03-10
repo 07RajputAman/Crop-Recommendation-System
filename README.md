@@ -1,4 +1,3 @@
-# Crop-Recommendation-System
 # Crop-Recommendation-system-
 ## Introduction:
 
