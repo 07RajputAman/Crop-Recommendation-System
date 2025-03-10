@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="{{url_for('static',filename='style/prediction.css')}}"
+    />
+    <title>Crop Recommendation System</title>
+    <link
+      rel="shortcut icon"
+      href="./static/style/rice.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+      <div id="firstLine">
+        <h4>According to your soil neutrients . . .</h4>
+      </div>
+      <div id="secondLine">
+        <h4>You Should Grow => <span>{{prediction}}</span></h4>
+      </div>
+  </body>
+</html>
